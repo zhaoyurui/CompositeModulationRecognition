@@ -26,12 +26,10 @@ Composite modulation (CM) signals are formed by multiplying an inner communicati
 
 | Directory          | Description                                                  |
 | ------------------ | ------------------------------------------------------------ |
-| gen_code/          | MATLAB scripts for composite modulation signal generation and log-domain preprocessing |
-| DSN-master/        | PyTorch implementation of TSDN and baseline models           |
-| code_gen_semantic/ | BLIP2-based semantic feature extraction from modulation class names |
-| ResultPlot/        | MATLAB scripts for experiment result visualization           |
-| 雷达脉内/          | Raw radar intra-pulse modulation dataset (source .wav files with annotations) |
+| gen_code/          | MATLAB scripts for composite modulation signal generation    |
 | Dataset/           | Pre-generated composite modulation dataset (.mat format)     |
+| code/              | PyTorch implementation of TSDN and baseline models           |
+| ResultPlot/        | Experiment result visualization                              |
 
 ---
 
@@ -59,15 +57,6 @@ PW = 10e-6;          % Pulse width (10 μs)
 SampleNum = 1000;    % Samples per modulation type
 SampleLen = 2000;    % Time-domain samples per pulse
 `
-
-### Logarithmic Projection
-
-The key preprocessing step is complex_log_advanced.m, which applies a continuous logarithmic mapping to the complex-valued signal. This linearizes the multiplicative relationship between inner and outer modulation layers:
-
-\log(\text{CM}) = \log(\text{inner}) + \log(\text{outer})
-
-Three methods are available: 'standard', 'unwrap', 'continuous'.
-
 ### Output
 
 The generated dataset is saved as Dataset/Modu01_4_Modu02_3_SampleNum_1000.mat:
@@ -130,7 +119,7 @@ The dd_channel_impairments_advanced() function in 	rain_simple.py simulates rea
 
 If you find this work useful, please cite:
 
-`ibtex
+`bibtex
 @article{zhao2025compositional,
   title={Compositional Zero-Shot Recognition based on Tangent Space Disentanglement for Composite Modulation Signals},
   author={Zhao, Yurui and Wang, Xiang and Huang, Zhitao and Li, Baoguo},
