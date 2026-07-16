@@ -2,6 +2,8 @@
 
 Official implementation of the paper **"Compositional Zero-Shot Recognition based on Tangent Space Disentanglement for Composite Modulation Signals"** (IEEE TCCN, 2026, under review).
 
+ARXIV: https://arxiv.org/pdf/2607.13463
+
 ## Overview
 
 Automatic Composite Modulation Recognition (ACMR) is critical for Integrated Sensing and Communication (ISAC) systems. This repository provides:
