@@ -28,10 +28,9 @@ Composite modulation (CM) signals are formed by multiplying an inner communicati
 
 | Directory          | Description                                                  |
 | ------------------ | ------------------------------------------------------------ |
-| gen_code/          | MATLAB scripts for composite modulation signal generation    |
-| Dataset/           | Pre-generated composite modulation dataset (.mat format)     |
+| dataset_code/          | MATLAB scripts for composite modulation signal generation    |
 | code/              | PyTorch implementation of TSDN and baseline models           |
-| ResultPlot/        | Experiment result visualization                              |
+| Result/            | Experiment result                                            |
 
 ---
 
