@@ -1,6 +1,6 @@
-# TSDN: Tangent Space Disentanglement Network for Compositional Zero-Shot Composite Modulation Recognition
+# Semantic Space Disentanglement Network for Compositional Zero-Shot Composite Modulation Recognition
 
-Official implementation of the paper **"Compositional Zero-Shot Recognition based on Tangent Space Disentanglement for Composite Modulation Signals"** (IEEE TCCN, 2026, under review).
+Official implementation of the paper **"Compositional Zero-Shot Recognition based on Disentangled Semantic Space for  Composite Modulation Signals"** (IEEE TCCN, 2026, under review).
 
 ARXIV: https://arxiv.org/pdf/2607.13463
 
@@ -9,7 +9,7 @@ ARXIV: https://arxiv.org/pdf/2607.13463
 Automatic Composite Modulation Recognition (ACMR) is critical for Integrated Sensing and Communication (ISAC) systems. This repository provides:
 
 - **Dataset generation code** (MATLAB): Composite modulation signal generation with logarithmic projection preprocessing
-- **Method implementation** (PyTorch): Tangent Space Disentanglement Network (TSDN) for compositional zero-shot recognition
+- **Method implementation** (PyTorch): Semantic Space Disentanglement Network for compositional zero-shot recognition
 - **Experiment results**: Comprehensive benchmark against 9 baselines with ablation studies
 
 TSDN achieves **>93% compositional zero-shot recognition accuracy** and maintains robust performance under joint channel fading and hardware imperfections down to 4 dB SNR.
@@ -122,7 +122,7 @@ If you find this work useful, please cite:
 
 `bibtex
 @article{zhao2025compositional,
-  title={Compositional Zero-Shot Recognition based on Tangent Space Disentanglement for Composite Modulation Signals},
+  title={Compositional Zero-Shot Recognition based on Disentangled Semantic Space for  Composite Modulation Signals},
   author={Zhao, Yurui and Wang, Xiang and Huang, Zhitao and Li, Baoguo},
   journal={IEEE Transactions on Cognitive Communications and Networking},
   year={2026},
