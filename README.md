@@ -1,6 +1,6 @@
 # Semantic Space Disentanglement Network for Compositional Zero-Shot Composite Modulation Recognition
 
-Official implementation of the paper **"Compositional Zero-Shot Recognition based on Disentangled Semantic Space for  Composite Modulation Signals"** (IEEE TCCN, 2026, under review).
+Official implementation of the paper **"Compositional Zero-Shot Recognition based on Disentangled Semantic Space for  Composite Modulation Signals"** (IEEE TCCN, 2026).
 
 ARXIV: https://arxiv.org/pdf/2607.13463
 
